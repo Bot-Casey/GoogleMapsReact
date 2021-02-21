@@ -4,11 +4,13 @@ import mapStyles from "./mapStyles";
 import {
   GoogleMap,
   useLoadScript,
-  LoadScript,
   Marker,
   InfoWindow,
 } from "@react-google-maps/api"
 import './index.css';
+
+require('dotenv').config();
+console.log(process.env.REACT_APP_GOOGLE_MAPS_KEY);
 
 const mapContainerStyle = {
   width: "100vw",
@@ -28,7 +30,7 @@ const options = {
 
 export default function App() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_KEY,
   });
 
   const [markers, setMarkers] = React.useState([]);
