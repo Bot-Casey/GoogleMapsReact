@@ -1,3 +1,6 @@
+# Current Build
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2acbda3f-e21c-4f7d-ba90-6af7c3946940/deploy-status)](https://app.netlify.com/sites/vigorous-visvesvaraya-5e141e/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
