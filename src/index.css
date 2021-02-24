@@ -15,16 +15,30 @@ body {
 }
 
 .locate{
-  position: absolute;
-  z-index: 10;
   border: none;
   background: none;
-  top: 0;
-  right: 0;
-  margin: 0;
 }
 
-.homeImage {
+.locate-img {
   max-width: 10vw;
   max-height: 10vh;
+}
+
+.iss {
+  border: none;
+  background: none;
+}
+
+.iss-img{
+  max-width: 10vw;
+  max-height: 10vh;
+}
+
+.menu{
+  display: flex;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  max-width: 15vw;
 }
